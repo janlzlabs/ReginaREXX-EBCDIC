@@ -1,0 +1,3 @@
+NODE="size"
+NODE.Y="an elephant"
+NODE.N="hare"

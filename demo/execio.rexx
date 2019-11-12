@@ -1,0 +1,12 @@
+DSN = REXXFILE.LAWFILE
+"ALLOC"
+DO I = 1 TO LINES.0
+  IF LINES.I = 'EOF' THEN
+    DO
+    SAY 'END OF CODE'
+    LEAVE
+    END
+  ELSE
+    NOP
+  END
+
