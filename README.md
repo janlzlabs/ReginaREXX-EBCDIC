@@ -2,7 +2,7 @@ Welcome to version 0.07a of the Regina Rexx interpreter for 8-bit encoded input.
 
 This is a fork from the original Regina Rexx interpreter with the added
 suppport for 8-bit encoded characters, including EBCDIC. 
-To execute the interpreter in EBCDIC mode, for example a plugin is required. 
+To execute the interpreter in EBCDIC mode a plugin is required. 
 The function of the plugin is to provide character translation from utf-8 
 to EBCDIC and vice-versa. Example plugin will be provided soon.....
 Without the plugin, the interpreter will work in standard mode, i.e. utf-8.
