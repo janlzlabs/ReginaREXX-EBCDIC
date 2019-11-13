@@ -299,7 +299,7 @@ streng *execute_external( tsd_t * volatile TSD, const streng *command,
          path[len] = '\0';
 
          /*
-          * lzlabs introduces notion of a program fetch handler to allow implementations to
+          * Here is introduced a notion of a program fetch handler to allow implementations to
           * service other methods for identifying / locating external commands. When a fetch
           * handler is present, the behavior to pass command strings to the OS if a command
           * is not found is supressed.
